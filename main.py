@@ -26,8 +26,8 @@ allowed_moves = [r]*c
 
 # Display the board
 def show_board():
-    # print(np.where(board == -1, 2, board))
-    print(tabulate(board, tablefmt="fancy_grid"))
+    print(np.where(board == -1, 2, board))
+    # print(tabulate(board, tablefmt="fancy_grid"))
 
 
 # Check if the column and row are valid
